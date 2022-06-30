@@ -1,13 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  
+  trailingSlash: true,
+
 }
 module.exports = {
   compiler: {
-    // ssr and displayName are configured by default
-    styledComponents: true,
-  },
+    styledComponents: true
+  }
 }
 
 module.exports = nextConfig

@@ -135,23 +135,23 @@ const Navbar = () => {
               <LinkClass>HOME</LinkClass>
             </Link>
           </Item>
-          <Item className={router.asPath == "/About" ? "active" : ""}>
-            <Link href="/About">
+          <Item className={router.asPath == "/About/" ? "active" : ""}>
+            <Link href="/About/">
               <LinkClass>ABOUT</LinkClass>
             </Link>
           </Item>
-          <Item className={router.asPath == "/Experiences" ? "active" : ""}>
-            <Link href="/Experiences">
+          <Item className={router.asPath == "/Experiences/" ? "active" : ""}>
+            <Link href="/Experiences/">
               <LinkClass>EXPERIENCES</LinkClass>
             </Link>
           </Item>
-          <Item className={router.asPath == "/Portfolio" ? "active" : ""}>
-            <Link href="/Portfolio">
+          <Item className={router.asPath == "/Portfolio/" ? "active" : ""}>
+            <Link href="/Portfolio/">
               <LinkClass>PORTFOLIO</LinkClass>
             </Link>
           </Item>
-          <Item className={router.asPath == "/Contact" ? "active" : ""}>
-            <Link href="/Contact">
+          <Item className={router.asPath == "/Contact/" ? "active" : ""}>
+            <Link href="/Contact/">
               <LinkClass>CONTACT</LinkClass>
             </Link>
           </Item>
