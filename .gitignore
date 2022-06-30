@@ -42,6 +42,7 @@ build/Release
 node_modules/
 jspm_packages/
 build/
+/build/
 build/*
 
 # Snowpack dependency directory (https://snowpack.dev/)
@@ -92,6 +93,7 @@ out
 # Nuxt.js build / generate output
 .nuxt
 dist
+build
 
 # Gatsby files
 .cache/
