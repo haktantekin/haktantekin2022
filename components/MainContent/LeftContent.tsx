@@ -27,7 +27,7 @@ const LeftColumn = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  ${mediaQueries("md")`
+  ${mediaQueries("lg")`
     order: 2;
     padding: 10px;
     width: 100%;
@@ -47,15 +47,18 @@ const LeftColumn = styled.div`
       position: absolute;
       left: 40%;
     }
-    &.code-gitsquare {
-      bottom: 10%;
-      color: #c3c3c3;
-      font-size: 50px;
-      z-index: -1;
-      opacity: 0.2;
-      position: absolute;
-      left: 100px;
-    }
+  }
+  .code-gitsquare {
+    bottom: 20%;
+    color: #c3c3c3;
+    font-size: 50px;
+    opacity: 0.2;
+    position: absolute;
+    left: 100px;
+    width: 10px;
+    height: 10px;
+    z-index: 1;
+    display: block;
   }
 `;
 
@@ -272,14 +275,16 @@ const LeftContent = () => {
       </Name>
       <Title color="#858585">FRONTEND DEVELOPER</Title>
       <CVLink>
-        <CVLinkItem href="#">
+        <CVLinkItem target={"_blank"}
+          rel={"noreferrer noopener"} href="/CV/HaktanTekinCVEN.pdf">
           <FontAwesomeIcon icon={faFile} />
           ENGLISH CV
           <svg height="50" width="180">
             <polyline points="0,0 180,0 180,50 0,50 0,00"></polyline>
           </svg>
         </CVLinkItem>
-        <CVLinkItem className="turkish" href="#">
+        <CVLinkItem className="turkish" target={"_blank"}
+          rel={"noreferrer noopener"} href="/CV/HaktanTekinCV.pdf">
           <FontAwesomeIcon icon={faFile} />
           TÜRKÇE ÖZGEÇMİŞ
           <svg height="50" width="180">
@@ -288,7 +293,11 @@ const LeftContent = () => {
         </CVLinkItem>
       </CVLink>
       <FontAwesomeIcon icon={faReact} className="code-react" />
-      <FontAwesomeIcon icon={faGitSquare} className="code-gitsquare" />
+      <a href="https://github.com/haktantekin"
+        target={"_blank"}
+        rel={"noreferrer noopener"}
+        className="code-gitsquare"
+      ><FontAwesomeIcon icon={faGitSquare} /></a>
     </LeftColumn>
   );
 };

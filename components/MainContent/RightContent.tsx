@@ -19,7 +19,8 @@ const RightColumn = styled.div`
   padding-bottom: 0;
   border-radius: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-  ${mediaQueries("sm")`
+  max-width:380px;
+  ${mediaQueries("lg")`
     position:relative;
     order:1;
     top:auto;
@@ -31,8 +32,9 @@ const RightColumn = styled.div`
   `};
 
   img {
-    width: auto;
+    width: 100%;
     height: auto;
+   
     &:after {
       transform: scale(0.95) translateY(36px) translateZ(-30px);
       filter: blur(20px);

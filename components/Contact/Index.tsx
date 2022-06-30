@@ -52,6 +52,14 @@ const Wrapper = styled.div`
   position: absolute;
   top:50%;
   transform: translateY(-50%);
+  ${mediaQueries("md")`
+    left:50%;
+    transform: translate(-50%, -50%);
+  `};
+    ${mediaQueries("sm")`
+      width:100%;
+    `};
+
 `
 const ContactItemWrapper = styled.div`
 display: flex;
@@ -92,19 +100,25 @@ const ContactContent = () => {
         <Intro>Are you looking for a freelance or full time frontend?</Intro>
         <ContactItemWrapper>
           <ContactItem bgColor="#868686">
-            <a href="">
+            <a target={"_blank"}
+              rel={"noreferrer noopener"}
+              href="mailto://me@haktantekin.com">
               <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
               Click for Mail
             </a>
           </ContactItem>
           <ContactItem bgColor="#25D366">
-            <a href="">
+            <a target={"_blank"}
+              rel={"noreferrer noopener"}
+              href="https://wa.me/+905399374446">
               <FontAwesomeIcon icon={faWhatsapp}></FontAwesomeIcon>
               Click for Whatsapp
             </a>
           </ContactItem>
           <ContactItem bgColor="#006599">
-            <a href="">
+            <a target={"_blank"}
+              rel={"noreferrer noopener"}
+              href="https://www.linkedin.com/in/haktantekin/">
               <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
               Click for Linkedin
             </a>
