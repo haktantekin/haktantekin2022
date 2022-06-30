@@ -45,7 +45,7 @@ const AboutContent = () => {
     }
   `};
   `;
-  const AboutItem = styled.div`
+  const AboutItem = styled.div<{ bgColor: string, align: string }>`
     background-color: ${(props) => props.bgColor || colors.colorBlack};
     padding: 20px 40px;
     border-radius: 10px;
@@ -70,9 +70,9 @@ const AboutContent = () => {
       left: ${(props) => props.align === "right" && "180px"};
       font-size: 80px;
       transform: ${(props) =>
-        props.align === "left"
-          ? "rotate(-45deg) translate(40px)"
-          : "rotate(45deg) translate(0px)"};
+      props.align === "left"
+        ? "rotate(-45deg) translate(40px)"
+        : "rotate(45deg) translate(0px)"};
       color: ${(props) => props.bgColor} !important;
       right: ${(props) => props.align === "left" && "180px"};
       opacity: 0.5;
@@ -148,7 +148,7 @@ const AboutContent = () => {
     }
   `;
 
-  const TextType = styled.span`
+  const TextType = styled.span<{ weight: string }>`
     color: ${(props) => props.color};
     font-weight: ${(props) => props.weight};
   `;
@@ -166,10 +166,10 @@ const AboutContent = () => {
             <FontAwesomeIcon icon={faUser} /> Intro
           </SubTitle>
           <Text>
-            My name is Haktan. I{"'"}m twenty-nine years old. I'm living in
+            My name is Haktan. I{"'"}m twenty-nine years old. I{" ' "}m living in
             Istanbul. I{"'"}m living with my family. I have been disabled by
             legg since my birth. But it isn{"'"}t a problem for me. Since 2012,
-            I've been wearing glasses. I{"'"}m a person who enjoys wearing
+            I{"'"}ve been wearing glasses. I{"'"}m a person who enjoys wearing
             glasses.
           </Text>
         </AboutItem>
@@ -198,7 +198,7 @@ const AboutContent = () => {
             </AboutList>
           </Text>
         </AboutItem>
- 
+
         <AboutItem bgColor={colors.colorOne} color={colors.colorBlack} align="left">
           <FontAwesomeIcon icon={faCanadianMapleLeaf} className="out" />
           <SubTitle>
@@ -206,12 +206,12 @@ const AboutContent = () => {
             <Link href="/Experiences">Experiences</Link>
           </SubTitle>
           <Text>
-            I'am a Frontend developer for twelve years. I worked on about thirty
+            I{"'"}am a Frontend developer for twelve years. I worked on about thirty
             different projects. I am working in my fifth company.
             <br />
             <br />
-            I'am using HTML/CSS and Jquery, but I{"'"}m using React, Typescript,
-            NextJS in my new jobs. 
+            I{"'"}am using HTML/CSS and Jquery, but I{"'"}m using React, Typescript,
+            NextJS in my new jobs.
             <br />
             <br />
             I{"'"}ve never used React before. but I
@@ -229,7 +229,7 @@ const AboutContent = () => {
             created my own WordPress blog theme.
             <br />
             <br />
-            I'm reading current SEO articles. I have experience about page speed optimization, backlink and other seo operations.
+            I{"'"}m reading current SEO articles. I have experience about page speed optimization, backlink and other seo operations.
             <br />
             <br />
             The codes can be found on my&nbsp;
@@ -289,7 +289,7 @@ const AboutContent = () => {
             <FontAwesomeIcon icon={faBullseye} /> My Goals
           </SubTitle>
           <Text>
-            My long-term ambition is to work abroad. I'm taking private lessons from my English teacher. Every day, I strive to
+            My long-term ambition is to work abroad. I{"'"}m taking private lessons from my English teacher. Every day, I strive to
             enhance my English skills.
           </Text>
         </AboutItem>

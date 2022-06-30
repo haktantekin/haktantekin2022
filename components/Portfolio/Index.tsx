@@ -210,7 +210,7 @@ const PortfolioContent = () => {
                 <Year>2020 - 2021</Year>
               </ProjectItem>
               <AboutCompany>
-                My current job is Encazip. encazip.com is an impartial, independent electricity tariff comparison and supplier switching website. I'm using to React with styled components.
+                My current job is Encazip. encazip.com is an impartial, independent electricity tariff comparison and supplier switching website. I{"'"}m using to React with styled components.
               </AboutCompany>
               <CompanyInfo>
                 <SubTitle>Company</SubTitle>
@@ -374,7 +374,7 @@ const PortfolioContent = () => {
                 <Year>2010 - 2014 - current</Year>
               </ProjectItem>
               <AboutCompany>
-                While I was working at dream-box.tv, interface changes were made for Borusan Holding's website 3 times. I made improvements on the HTML/CSS and Javascript side. I provided support as maintanance on 10 different sites belonging to Borusan Holding. <strong>(Borusan Art, Borusan Music House, İyi Enerji, Borusan EnBW Energy, Artcenter, Borusan Lojistik, Borusan Contemporary)</strong>
+                While I was working at dream-box.tv, interface changes were made for Borusan Holding{"'"}s website 3 times. I made improvements on the HTML/CSS and Javascript side. I provided support as maintanance on 10 different sites belonging to Borusan Holding. <strong>(Borusan Art, Borusan Music House, İyi Enerji, Borusan EnBW Energy, Artcenter, Borusan Lojistik, Borusan Contemporary)</strong>
               </AboutCompany>
               <CompanyInfo>
                 <SubTitle>Company</SubTitle>
@@ -602,7 +602,8 @@ const PortfolioContent = () => {
                 <Year>2018</Year>
               </ProjectItem>
               <AboutCompany>
-              Yapı Kredi bankasının yayındaki sitesi için maintanance tarafında çalışmalarda bulundum. Ayrıca Yapı Kredi'ye bağlı; <strong>Adios Kart, Bonus Kart, World Kart ve Crystal Kart</strong> web sitelerine de maintanance olarak destek verdim.               </AboutCompany>
+              I worked on the maintanance side for the live site of Yapı Kredi bank. It is also affiliated with Yapı Kredi{"'"}; I also supported <strong>Adios Kart, Bonus Kart, World Kart and Crystal Kart</strong> websites as maintanance.
+              </AboutCompany>
               <CompanyInfo>
                 <SubTitle>Company</SubTitle>
                 <Company
@@ -664,7 +665,7 @@ const PortfolioContent = () => {
                 <Year>2017 - current</Year>
               </ProjectItem>
               <AboutCompany>
-              As a freelancer, I coded Borusan EnBW Enerji's current site with Bootstrap for my first company. I supported it as maintanance until it was published.
+              As a freelancer, I coded Borusan EnBW Enerji{"'"}s current site with Bootstrap for my first company. I supported it as maintanance until it was published.
               </AboutCompany>
               <CompanyInfo>
                 <SubTitle>Company</SubTitle>

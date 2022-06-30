@@ -8,11 +8,9 @@ svg{
   position: relative;
   fill:#ffffff;
   transition: all 0.5s ease-in-out;
-
   &:hover {
     fill: ${color.colorOne};
   }
-
 }
 `;
 const Link = styled.a`

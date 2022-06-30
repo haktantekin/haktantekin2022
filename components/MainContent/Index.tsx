@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import colors from "../Layout/colors";
 import { mediaQueries } from "../Layout/Devices";
 import LeftContent from "./LeftContent";
 import RightContent from "./RightContent";
@@ -23,7 +24,7 @@ const MainContent = () => {
     }
     &:before {
       content: "";
-      background-color: #f5f5f5;
+      background-color: ${colors.colorSoftGray};
       width: 100vw;
       height: 100vh;
       position: absolute;

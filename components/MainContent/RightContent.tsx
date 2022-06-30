@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { mediaQueries } from "../Layout/Devices";
 import Image from "next/image";
-import myImage from "../../public/img/haktantekin.png";
+import myImage from "./../../public/img/haktantekin.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fas, faGraduationCap } from "@fortawesome/free-solid-svg-icons";
@@ -29,8 +29,8 @@ const RightColumn = styled.div`
     right:auto;
     width: 70%;
     margin: 0 auto;
-    margin-top: 40px;
- `};
+    margin-top: 20px;
+  `};
 
   img {
     width: auto;
@@ -70,7 +70,7 @@ const RightContent = () => {
   return (
     <RightColumn>
       <FontAwesomeIcon icon={faGraduationCap} className="code-graduate" />
-      <Image alt="Haktan Tekin" src={myImage} />
+      <Image alt="Haktan Tekin" priority src={myImage} />
     </RightColumn>
   );
 };

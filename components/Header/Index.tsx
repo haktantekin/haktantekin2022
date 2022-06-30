@@ -24,8 +24,6 @@ const Container = styled.div`
   `};
 `;
 
-
-
 const MainHeader = () => {
   return (
     <Container>

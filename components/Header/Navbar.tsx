@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Link from "next/link";
 import styled from "styled-components";
 import { useRouter } from "next/router";
@@ -17,13 +17,13 @@ const Nav = styled.div`
 const LinkClass = styled.span`
   font-size: 16px;
   font-weight: 500;
-  color: #ffffff;
+  color: ${colors.colorSoftGray};
   cursor: pointer;
   background-image: linear-gradient(
     to right,
     ${colors.colorOne},
-    ${colors.colorWhite} 50%,
-    ${colors.colorWhite} 50%
+    ${colors.colorSoftGray} 50%,
+    ${colors.colorSoftGray} 50%
   );
   position: relative;
   -webkit-background-clip: text;
@@ -60,7 +60,7 @@ const Item = styled.div`
     border-bottom:0;
     margin-bottom:-15px;
     span{
-      color: #FFE58A;
+      color: #f5f5f5;
       background:transparent;
       -webkit-background-clip: inherit;
       -webkit-text-fill-color: inherit;
@@ -89,7 +89,7 @@ const Container = styled.div`
       height:100vh;
       border-top: 1px solid #fff;
       position: absolute;
-      top: 75px;
+      top: 70px;
       left: -110%;
       opacity: 1;
       transition: all 0.5s ease;
@@ -104,7 +104,7 @@ const Container = styled.div`
       z-index: 1;
     }
     .nav-item .active {
-      color: #FFE58A;
+      color: #f5f5f5;
       border: none;
     }
     .nav-links {

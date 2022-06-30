@@ -7,8 +7,6 @@ import {
   faCode,
   faEnvelope,
   faFile,
-  faMailBulk,
-  faMugSaucer,
   fas,
 } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -30,13 +28,13 @@ const LeftColumn = styled.div`
   flex-direction: column;
   justify-content: center;
   ${mediaQueries("md")`
-      order: 2;
-      padding: 10px;
-      width: 100%;
-      height:auto;
-      display: block;
-      margin-top: 30px;
-    `};
+    order: 2;
+    padding: 10px;
+    width: 100%;
+    height:auto;
+    display: block;
+    margin-top: 30px;
+  `};
 
   svg {
     &.code-react {
@@ -138,9 +136,10 @@ const Name = styled.h1`
   position: relative;
   margin-top: 10px;
   ${mediaQueries("md")`
-      font-size:28px;
-      margin-top:30px;
-    `};
+    font-size:28px;
+    margin-top:30px;
+    text-align:center;
+  `};
   svg {
     position: absolute;
     top: -10px;
@@ -153,21 +152,25 @@ const Title = styled.h2`
   color: ${(props) => props.color};
   font-weight: 400;
   ${mediaQueries("md")`
-      font-size:20px;
-    `};
+    font-size:20px;
+    text-align:center;
+  `};
 `;
 
 const SocialList = styled.div`
   display: flex;
   gap: 10px;
   ${mediaQueries("md")`
-  justify-content: center;
-`};
+    justify-content: center;
+  `};
 `;
 
 const CVLink = styled.div`
   display: flex;
   gap: 15px;
+  ${mediaQueries("md")`
+    justify-content: center;
+  `};
 `;
 
 const CVLinkItem = styled.a`
