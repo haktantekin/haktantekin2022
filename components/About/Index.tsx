@@ -207,7 +207,7 @@ const AboutContent = () => {
           </SubTitle>
           <Text>
             I{"'"}am a Frontend developer for twelve years. I worked on about thirty
-            different projects. I am working in my fifth company.
+            different projects. I{"'"}m working in my fifth company.
             <br />
             <br />
             I{"'"}am using HTML/CSS and Jquery, but I{"'"}m using React, Typescript,

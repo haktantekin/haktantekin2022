@@ -1,15 +1,5 @@
-import Image from "next/image";
 import React from "react";
 import styled from "styled-components";
-import encazipLogo from "../../public/img/encazip.png";
-import borusanLogo from "../../public/img/portfolio/borusan.png";
-import borusanEnbwLogo from "../../public/img/portfolio/borusanEnbw.png";
-import eczacibasiLogo from "../../public/img/portfolio/eczacibasi.png";
-import erenLogo from "../../public/img/portfolio/erenholding.png";
-import tbbLogo from "../../public/img/portfolio/tbb.png";
-import gastroLogo from "../../public/img/portfolio/gastro.png";
-import yapikrediLogo from "../../public/img/portfolio/yapikredi.png";
-import akinonLogo from "../../public/img/akinon.svg";
 import { mediaQueries } from "../Layout/Devices";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
@@ -169,7 +159,7 @@ margin-bottom:20px;
     top:15px;
   }
 `
-const StyledImage = styled(Image)`
+const StyledImage = styled.img`
   width: 200px !important;
   min-width: auto !important;
   max-width: inherit !important;
@@ -195,7 +185,7 @@ const PortfolioContent = () => {
                 href="https://encazip.com.tr"
               >
                 {" "}
-                <StyledImage alt="encazip.com" src={encazipLogo} />
+                <StyledImage alt="encazip.com" width={320}  height={78} src={'/img/encazip.png'} />
               </a>
             </LeftContent>
             <RightContent>
@@ -256,7 +246,7 @@ const PortfolioContent = () => {
                 href="https://akinon.com"
               >
                 {" "}
-                <StyledImage alt="akinon.com" src={akinonLogo} />
+                <StyledImage alt="akinon.com" width={320} height={78} src={'/img/akinon.svg'} />
               </a>
             </LeftContent>
             <RightContent>
@@ -359,7 +349,7 @@ const PortfolioContent = () => {
                 href="https://borusan.com.tr"
               >
                 {" "}
-                <StyledImage alt="borusan.com.tr" src={borusanLogo} />
+                <StyledImage alt="borusan.com.tr" width={320} height={78} src={'/img/portfolio/borusan.png'} />
               </a>
             </LeftContent>
             <RightContent>
@@ -414,7 +404,7 @@ const PortfolioContent = () => {
                 href="https://eczacibasi.com.tr"
               >
                 {" "}
-                <StyledImage alt="eczacibasi.com.tr" src={eczacibasiLogo} />
+                <StyledImage alt="eczacibasi.com.tr" width={320} height={78} src={'/img/portfolio/eczacibasi.png'} />
               </a>
             </LeftContent>
             <RightContent>
@@ -469,7 +459,7 @@ const PortfolioContent = () => {
                 href="https://erenholding.com.tr"
               >
                 {" "}
-                <StyledImage alt="erenholding.com.tr" src={erenLogo} />
+                <StyledImage alt="eczacibasi.com.tr" width="320"  height={78} src={'/img/portfolio/eczacibasi.png'} />
               </a>
             </LeftContent>
             <RightContent>
@@ -524,7 +514,7 @@ const PortfolioContent = () => {
                 href="https://www.tbb.org.tr"
               >
                 {" "}
-                <StyledImage alt="tbb.org.tr" src={tbbLogo} />
+                <StyledImage alt="tbb.org.tr" width={300}  height={300} src={'/img/portfolio/tbb.png'} />
               </a>
             </LeftContent>
             <RightContent>
@@ -587,7 +577,7 @@ const PortfolioContent = () => {
                 href="https://yapikredi.com.tr"
               >
                 {" "}
-                <StyledImage alt="yapikredi.com.tr" src={yapikrediLogo} />
+                <StyledImage alt="yapikredi.com" width={320}  height={78} src={'/img/portfolio/yapikredi.png'} />
               </a>
             </LeftContent>
             <RightContent>
@@ -650,7 +640,7 @@ const PortfolioContent = () => {
                 href="https://borusanenbw.com.tr"
               >
                 {" "}
-                <StyledImage alt="borusanenbw.com.tr" src={borusanEnbwLogo} />
+                <StyledImage alt="borusanenbw.com.tr" width={320}  height={78} src={'/img/portfolio/borusanEnbw.png'} />
               </a>
             </LeftContent>
             <RightContent>
@@ -706,7 +696,7 @@ const PortfolioContent = () => {
                 href="https://gastroclub.com.tr/"
               >
                 {" "}
-                <StyledImage alt="gastroclub.com.tr" src={gastroLogo} />
+                <StyledImage alt="gastro.com.tr" width={228}  height={156} src={'/img/portfolio/gastro.png'} />
               </a>
             </LeftContent>
             <RightContent>
@@ -769,7 +759,7 @@ const PortfolioContent = () => {
                 href="https://riskmerkezi.org"
               >
                 {" "}
-                <StyledImage alt="riskmerkezi.org" src={tbbLogo} />
+                <StyledImage alt="tbb.org.tr" width={300}  height={300} src={'/img/portfolio/tbb.png'} />
               </a>
             </LeftContent>
             <RightContent>
@@ -832,7 +822,7 @@ const PortfolioContent = () => {
                 href="http://www.trlibor.org/"
               >
                 {" "}
-                <StyledImage alt="trlibor.org" src={tbbLogo} />
+                <StyledImage alt="tbb.org.tr" width={300}  height={300} src={'/img/portfolio/tbb.png'} />
               </a>
             </LeftContent>
             <RightContent>

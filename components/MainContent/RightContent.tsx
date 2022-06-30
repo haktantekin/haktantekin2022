@@ -1,8 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { mediaQueries } from "../Layout/Devices";
-import Image from "next/image";
-import myImage from "./../../public/img/haktantekin.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fas, faGraduationCap } from "@fortawesome/free-solid-svg-icons";
@@ -66,11 +64,13 @@ const RightColumn = styled.div`
   }
 `;
 
+const Image = styled.img``
+
 const RightContent = () => {
   return (
     <RightColumn>
       <FontAwesomeIcon icon={faGraduationCap} className="code-graduate" />
-      <Image alt="Haktan Tekin" priority src={myImage} />
+      <Image alt="Haktan Tekin" width="380"  height={394} src={'/img/haktantekin.png'} />
     </RightColumn>
   );
 };

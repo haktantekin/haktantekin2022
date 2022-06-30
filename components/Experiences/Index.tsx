@@ -1,11 +1,5 @@
-import Image from "next/image";
 import React from "react";
 import styled from "styled-components";
-import encazipLogo from "../../public/img/encazip.png";
-import akinonLogo from "../../public/img/akinon.svg";
-import nuevoLogo from "../../public/img/nuevo.png";
-import magiclickLogo from "../../public/img/magiclick.png";
-import dreamboxLogo from "../../public/img/dreambox.png";
 import { mediaQueries } from "../Layout/Devices";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
@@ -149,7 +143,7 @@ const Projects = styled.ul`
   }
 `;
 const ProjectsItem = styled(Link)``;
-const StyledImage = styled(Image)`
+const StyledImage = styled.img`
   width: 200px !important;
   min-width: auto !important;
   max-width: inherit !important;
@@ -175,7 +169,7 @@ const ExperiencesContent = () => {
                 href="https://encazip.com"
               >
                 {" "}
-                <StyledImage alt="encazip.com" src={encazipLogo} />
+                <StyledImage alt="encazip.com" width="320"  height={78} src={'/img/encazip.png'} />
               </a>
             </LeftContent>
             <RightContent>
@@ -226,7 +220,7 @@ const ExperiencesContent = () => {
                 rel={"noreferrer noopener"}
                 href="https://akinon.com"
               >
-                <StyledImage alt="akinon.com" src={akinonLogo} />
+             <StyledImage alt="akinon.com" width={320}  height={78} src={'/img/akinon.svg'} />
               </a>{" "}
             </LeftContent>
             <RightContent>
@@ -349,7 +343,7 @@ const ExperiencesContent = () => {
                 rel={"noreferrer noopener"}
                 href="https://www.nuevo.com.tr/"
               >
-                <StyledImage alt="nuevo.com.tr" src={nuevoLogo} />
+     <StyledImage alt="encazip.com" width={183}  height={71} src={'/img/nuevo.png'} />
               </a>{" "}
             </LeftContent>
             <RightContent>
@@ -433,7 +427,7 @@ const ExperiencesContent = () => {
                 rel={"noreferrer noopener"}
                 href="https://www.magiclick.com"
               >
-                <StyledImage alt="magiclick.com" src={magiclickLogo} />
+              <StyledImage alt="magiclick.com" width={384} height={112} src={'/img/magiclick.png'} />
               </a>{" "}
             </LeftContent>
             <RightContent>
@@ -499,7 +493,7 @@ const ExperiencesContent = () => {
                 rel={"noreferrer noopener"}
                 href="https://dream-box.tv"
               >
-                <StyledImage alt="https://dream-box.tv" src={dreamboxLogo} />
+                <StyledImage alt="dream-box.tv" width={180} height={32} src={'/img/dreambox.png'} />
               </a>{" "}
             </LeftContent>
             <RightContent>
