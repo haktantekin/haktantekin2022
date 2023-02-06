@@ -158,8 +158,8 @@ const ExperiencesContent = () => {
   return (
     <>
       <Container>
-        <Title>My Jobs</Title>
-        <Intro>I have 13 years of experience as a frontend developer.</Intro>
+        <Title>Çalıştığım Şirketler</Title>
+        <Intro>Frontend Developer olarak 13 yıldır çalışmaktayım.</Intro>
         <CompanyList>
           <CompanyListItem id="encazip">
             <LeftContent>
@@ -169,7 +169,7 @@ const ExperiencesContent = () => {
                 href="https://encazip.com"
               >
                 {" "}
-                <StyledImage alt="encazip.com" width="320"  height={78} src={'/img/encazip.png'} />
+                <StyledImage alt="encazip.com" width="320" height={78} src={'/img/encazip.png'} />
               </a>
             </LeftContent>
             <RightContent>
@@ -184,28 +184,29 @@ const ExperiencesContent = () => {
                 <Year>03.2022 - current</Year>
               </Company>
               <AboutCompany>
-                encazip.com is an impartial, independent electricity tariff
-                comparison and supplier switching website.
+                encazip.com elektrik fiyatları karşılaştırma, kredi, sigorta ve telekomunikasyon alanlarında satış yapan bir şirket. Güncel teknolojileri kullanmakta beraber SEO tarafında da optimizeler yaparak en iyi değerlere ulaştık!
               </AboutCompany>
               <UsingTech>
-                <SubTitle>Technologies</SubTitle>
+                <SubTitle>Kullandığım Teknolojiler</SubTitle>
                 <UsingTechItem>
-                  <FontAwesomeIcon icon={faReact} /> React
+                  <FontAwesomeIcon icon={faReact} /> react
                 </UsingTechItem>
                 <UsingTechItem>TypeScript</UsingTechItem>
-                <UsingTechItem>NextJS</UsingTechItem>
-                <UsingTechItem>Axios</UsingTechItem>
-                <UsingTechItem>Styled Components</UsingTechItem>
-                <UsingTechItem>Css Flexbox</UsingTechItem>
+                <UsingTechItem>next.js</UsingTechItem>
+                <UsingTechItem>axios</UsingTechItem>
+                <UsingTechItem>Tailwind Css</UsingTechItem>
+                <UsingTechItem>styled-components</UsingTechItem>
+                <UsingTechItem>Flexible / Responsive</UsingTechItem>
+                <UsingTechItem>grid</UsingTechItem>
                 <UsingTechItem>Scrum</UsingTechItem>
                 <UsingTechItem>git</UsingTechItem>
                 <UsingTechItem>npm package</UsingTechItem>
-                <UsingTechItem>Seo Optimization</UsingTechItem>
+                <UsingTechItem>Seo Optimizasyonu</UsingTechItem>
                 <UsingTechItem>Figma</UsingTechItem>
               </UsingTech>
               <Projects>
-                <SubTitle>Projects</SubTitle>
-                <ProjectsItem title="click for info" href="/Portfolio#encazip">
+                <SubTitle>Projeler</SubTitle>
+                <ProjectsItem title="bilgi için tıklayın" href="/tr/portfolyo#encazip">
                   <a>
                     <FontAwesomeIcon icon={faCircleInfo} /> encazip.com
                   </a>
@@ -220,7 +221,7 @@ const ExperiencesContent = () => {
                 rel={"noreferrer noopener"}
                 href="https://akinon.com"
               >
-             <StyledImage alt="akinon.com" width={320}  height={78} src={'/img/akinon.svg'} />
+                <StyledImage alt="akinon.com" width={320} height={78} src={'/img/akinon.svg'} />
               </a>{" "}
             </LeftContent>
             <RightContent>
@@ -236,50 +237,48 @@ const ExperiencesContent = () => {
                 <Year>01.2021 - 03.2022</Year>
               </Company>
               <AboutCompany>
-                Akinon is a global software development company that provides
-                state-of-the-art omnichannel commerce solutions to top retail
-                brands worldwide.
+                Akinon Türkiye&apos;deki en büyük e-ticaret sitelerinin yazılım alanında geliştirmelerini yapan bir şirket.
               </AboutCompany>
               <UsingTech>
-                <SubTitle>Technologies</SubTitle>
+                <SubTitle>Kullandığım Teknolojiler</SubTitle>
                 <UsingTechItem>
-                  <FontAwesomeIcon icon={faJs} /> JavaScript / JQuery
+                  <FontAwesomeIcon icon={faJs} /> javaScript / JQuery
                 </UsingTechItem>
                 <UsingTechItem>
                   <FontAwesomeIcon icon={faBootstrap} /> Bootstrap
                 </UsingTechItem>
-                <UsingTechItem>Css Flexbox</UsingTechItem>
-                <UsingTechItem>Sass</UsingTechItem>
-                <UsingTechItem>Jira</UsingTechItem>
+                <UsingTechItem>Flexible / Responsive</UsingTechItem>
+                <UsingTechItem>sass</UsingTechItem>
+                <UsingTechItem>jira</UsingTechItem>
                 <UsingTechItem>Scrum / Kanban</UsingTechItem>
                 <UsingTechItem>git</UsingTechItem>
                 <UsingTechItem>npm package</UsingTechItem>
-                <UsingTechItem>Seo Optimization</UsingTechItem>
+                <UsingTechItem>Seo Optimizasyonu</UsingTechItem>
                 <UsingTechItem>Zeplin</UsingTechItem>
               </UsingTech>
               <Projects>
                 <SubTitle>Projects</SubTitle>
-                <ProjectsItem title="click for info" href="/Portfolio#ecommerce">
+                <ProjectsItem title="bilgi için tıklayın" href="/tr/portfolyo#ecommerce">
                   <a>
                     {" "}
                     <FontAwesomeIcon icon={faCircleInfo} /> derimod.com.tr{" "}
                   </a>
                 </ProjectsItem>
-                <ProjectsItem title="click for info" href="/Portfolio#ecommerce">
+                <ProjectsItem title="bilgi için tıklayın" href="/tr/portfolyo#ecommerce">
                   <a>
                     {" "}
                     <FontAwesomeIcon icon={faCircleInfo} /> desa.com.tr{" "}
                   </a>
                 </ProjectsItem>
-                <ProjectsItem title="click for info" href="/Portfolio#ecommerce">
+                <ProjectsItem title="bilgi için tıklayın" href="/tr/portfolyo#ecommerce">
                   <a>
                     {" "}
                     <FontAwesomeIcon icon={faCircleInfo} /> lacoste.com.tr{" "}
                   </a>
                 </ProjectsItem>
                 <ProjectsItem
-                  title="click for info"
-                  href="/Portfolio#ecommerce"
+                  title="bilgi için tıklayın"
+                  href="/tr/portfolyo#ecommerce"
                 >
                   <a>
                     {" "}
@@ -288,15 +287,15 @@ const ExperiencesContent = () => {
                     /> superstep.com.tr{" "}
                   </a>
                 </ProjectsItem>
-                <ProjectsItem title="click for info" href="/Portfolio#ecommerce">
+                <ProjectsItem title="bilgi için tıklayın" href="/tr/portfolyo#ecommerce">
                   <a>
                     {" "}
                     <FontAwesomeIcon icon={faCircleInfo} /> kigili.com{" "}
                   </a>
                 </ProjectsItem>
                 <ProjectsItem
-                  title="click for info"
-                  href="/Portfolio#ecommerce"
+                  title="bilgi için tıklayın"
+                  href="/tr/portfolyo#ecommerce"
                 >
                   <a>
                     {" "}
@@ -305,21 +304,21 @@ const ExperiencesContent = () => {
                     /> abdullahkigili.com{" "}
                   </a>
                 </ProjectsItem>
-                <ProjectsItem title="click for info" href="/Portfolio#ecommerce">
+                <ProjectsItem title="bilgi için tıklayın" href="/tr/portfolyo#ecommerce">
                   <a>
                     {" "}
                     <FontAwesomeIcon icon={faCircleInfo} /> gap.com.tr{" "}
                   </a>
                 </ProjectsItem>
-                <ProjectsItem title="click for info" href="/Portfolio#ecommerce">
+                <ProjectsItem title="bilgi için tıklayın" href="/tr/portfolyo#ecommerce">
                   <a>
                     {" "}
                     <FontAwesomeIcon icon={faCircleInfo} /> gant.com.tr{" "}
                   </a>
                 </ProjectsItem>
                 <ProjectsItem
-                  title="click for info"
-                  href="/Portfolio#ecommerce"
+                  title="bilgi için tıklayın"
+                  href="/tr/portfolyo#ecommerce"
                 >
                   <a>
                     {" "}
@@ -327,7 +326,7 @@ const ExperiencesContent = () => {
                     marksandspencer.com.tr{" "}
                   </a>
                 </ProjectsItem>
-                <ProjectsItem title="click for info" href="/Portfolio#ecommerce">
+                <ProjectsItem title="bilgi için tıklayın" href="/tr/portfolyo#ecommerce">
                   <a>
                     {" "}
                     <FontAwesomeIcon icon={faCircleInfo} /> salomon.com.tr{" "}
@@ -343,7 +342,7 @@ const ExperiencesContent = () => {
                 rel={"noreferrer noopener"}
                 href="https://www.nuevo.com.tr/"
               >
-     <StyledImage alt="encazip.com" width={183}  height={71} src={'/img/nuevo.png'} />
+                <StyledImage alt="encazip.com" width={183} height={71} src={'/img/nuevo.png'} />
               </a>{" "}
             </LeftContent>
             <RightContent>
@@ -359,35 +358,31 @@ const ExperiencesContent = () => {
                 <Year>05.2019 - 01.2021</Year>
               </Company>
               <AboutCompany>
-                Nuevo has been established in 2012 as a softwarehouse. Nuevo
-                provides a wide scope of services and solutions ranging from
-                custom .net applications to various SharePoint solutions, Mobile
-                applications, digital signage solutions, mobile websites and
-                dealer management systems.
+                Nuevo, devlete ait web projeleri bulunan bir yazılım evi.
               </AboutCompany>
               <UsingTech>
-                <SubTitle>Technologies</SubTitle>
+                <SubTitle>Kullandığım Teknolojiler</SubTitle>
                 <UsingTechItem>
-                  <FontAwesomeIcon icon={faJs} /> JavaScript / JQuery
+                  <FontAwesomeIcon icon={faJs} /> javaScript / JQuery
                 </UsingTechItem>
                 <UsingTechItem>
                   <FontAwesomeIcon icon={faBootstrap} /> Bootstrap
                 </UsingTechItem>
-                <UsingTechItem>Css Flexbox</UsingTechItem>
+                <UsingTechItem>Flexible / Responsive</UsingTechItem>
                 <UsingTechItem>less</UsingTechItem>
                 <UsingTechItem>Jira</UsingTechItem>
                 <UsingTechItem>git</UsingTechItem>
                 <UsingTechItem>gulp</UsingTechItem>
                 <UsingTechItem>npm package</UsingTechItem>
-                <UsingTechItem>Seo Optimization</UsingTechItem>
-                <UsingTechItem>.net Integration</UsingTechItem>
+                <UsingTechItem>Seo Optimizasyonu</UsingTechItem>
+                <UsingTechItem>.net Entegrasyonu</UsingTechItem>
                 <UsingTechItem>Adobe XD</UsingTechItem>
               </UsingTech>
               <Projects>
-                <SubTitle>Projects</SubTitle>
+                <SubTitle>Projeler</SubTitle>
                 <ProjectsItem
-                  title="click for info"
-                  href="/Portfolio#gastroclub"
+                  title="bilgi için tıklayın"
+                  href="/tr/portfolyo#gastroclub"
                 >
                   <a>
                     {" "}
@@ -396,22 +391,22 @@ const ExperiencesContent = () => {
                     /> gastroclub.com.tr{" "}
                   </a>
                 </ProjectsItem>
-                <ProjectsItem title="click for info" href="/Portfolio#tbb">
+                <ProjectsItem title="bilgi için tıklayın" href="/tr/portfolyo#tbb">
                   <a>
                     {" "}
                     <FontAwesomeIcon icon={faCircleInfo} /> tbb.org.tr{" "}
                   </a>
                 </ProjectsItem>
                 <ProjectsItem
-                  title="click for info"
-                  href="/Portfolio#riskmerkezi"
+                  title="bilgi için tıklayın"
+                  href="/tr/portfolyo#riskmerkezi"
                 >
                   <a>
                     {" "}
                     <FontAwesomeIcon icon={faCircleInfo} /> riskmerkezi.org{" "}
                   </a>
                 </ProjectsItem>
-                <ProjectsItem title="click for info" href="/Portfolio#trlibor">
+                <ProjectsItem title="bilgi için tıklayın" href="/tr/portfolyo#trlibor">
                   <a>
                     {" "}
                     <FontAwesomeIcon icon={faCircleInfo} /> trlibor.org{" "}
@@ -427,7 +422,7 @@ const ExperiencesContent = () => {
                 rel={"noreferrer noopener"}
                 href="https://www.magiclick.com"
               >
-              <StyledImage alt="magiclick.com" width={384} height={112} src={'/img/magiclick.png'} />
+                <StyledImage alt="magiclick.com" width={384} height={112} src={'/img/magiclick.png'} />
               </a>{" "}
             </LeftContent>
             <RightContent>
@@ -443,28 +438,27 @@ const ExperiencesContent = () => {
                 <Year>07.2017 - 03.2019</Year>
               </Company>
               <AboutCompany>
-                Magiclick that develops software for all banks in Turkey.
+                Magiclick, Türkiye&apos;deki en büyük bankaların yazılım tarafında güncellemelerini yapan şirkettir.
               </AboutCompany>
               <UsingTech>
-                <SubTitle>Technologies</SubTitle>
+                <SubTitle>Kullandığım Teknolojiler</SubTitle>
                 <UsingTechItem>
-                  <FontAwesomeIcon icon={faJs} /> JavaScript / JQuery
+                  <FontAwesomeIcon icon={faJs} /> javaScript / JQuery
                 </UsingTechItem>
                 <UsingTechItem>
                   <FontAwesomeIcon icon={faBootstrap} /> Bootstrap
                 </UsingTechItem>
-                <UsingTechItem>Css Flexbox</UsingTechItem>
+                <UsingTechItem>Flexible / Responsive</UsingTechItem>
                 <UsingTechItem>less</UsingTechItem>
                 <UsingTechItem>TFS</UsingTechItem>
-                <UsingTechItem>Seo Optimization</UsingTechItem>
+                <UsingTechItem>Seo Optimizasyonu</UsingTechItem>
                 <UsingTechItem>Adobe Photoshop</UsingTechItem>
               </UsingTech>
               <Projects>
-                <SubTitle>Projects</SubTitle>
+                <SubTitle>Projeler</SubTitle>
                 <ProjectsItem
-                  title="click for info"
-                  href="/Portfolio#yapikredi"
-                >
+                  title="bilgi için tıklayın"
+                  href="/tr/portfolyo#yapikredi">
                   <a>
                     {" "}
                     <FontAwesomeIcon
@@ -473,8 +467,8 @@ const ExperiencesContent = () => {
                   </a>
                 </ProjectsItem>
                 <ProjectsItem
-                  title="click for info"
-                  href="/Portfolio#yapikredi"
+                  title="bilgi için tıklayın"
+                  href="/tr/portfolyo#yapikredi"
                 >
                   <a>
                     {" "}
@@ -508,11 +502,11 @@ const ExperiencesContent = () => {
                 </a>
                 <Year>07.2010 - 06.2017</Year>
               </Company>
-              <AboutCompany>Dreambox is a digital agency.</AboutCompany>
+              <AboutCompany>Dreambox çeşitli holding şirketlerine web hizmetleri sunan bir dijital ajans. Aynı zamanda stajımı da yaptığım bir şirkettir.</AboutCompany>
               <UsingTech>
-                <SubTitle>Technologies</SubTitle>
+                <SubTitle>Kullandığım Teknolojiler</SubTitle>
                 <UsingTechItem>
-                  <FontAwesomeIcon icon={faJs} /> JavaScript / JQuery
+                  <FontAwesomeIcon icon={faJs} /> javaScript / JQuery
                 </UsingTechItem>
                 <UsingTechItem>Css</UsingTechItem>
                 <UsingTechItem>Seo Optimization</UsingTechItem>
@@ -520,16 +514,16 @@ const ExperiencesContent = () => {
                 <UsingTechItem>Adobe Photoshop</UsingTechItem>
               </UsingTech>
               <Projects>
-                <SubTitle>Projects</SubTitle>
-                <ProjectsItem title="click for info" href="/Portfolio#borusan">
+                <SubTitle>Projeler</SubTitle>
+                <ProjectsItem title="bilgi için tıklayın" href="/tr/portfolyo#borusan">
                   <a>
                     {" "}
                     <FontAwesomeIcon icon={faCircleInfo} /> borusan.com.tr{" "}
                   </a>
                 </ProjectsItem>
                 <ProjectsItem
-                  title="click for info"
-                  href="/Portfolio#eczacibasi"
+                  title="bilgi için tıklayın"
+                  href="/tr/portfolyo#eczacibasi"
                 >
                   <a>
                     {" "}
@@ -539,8 +533,8 @@ const ExperiencesContent = () => {
                   </a>
                 </ProjectsItem>
                 <ProjectsItem
-                  title="click for info"
-                  href="/Portfolio#erenholding"
+                  title="bilgi için tıklayın"
+                  href="/tr/portfolyo#erenholding"
                 >
                   <a>
                     {" "}
@@ -550,9 +544,8 @@ const ExperiencesContent = () => {
                   </a>
                 </ProjectsItem>
                 <ProjectsItem
-                  title="click for info"
-                  href="/Portfolio#borusanenbwenerji"
-                >
+                  title="bilgi için tıklayın"
+                  href="/tr/portfolyo#borusanenbwenerji">
                   <a>
                     {" "}
                     <FontAwesomeIcon icon={faCircleInfo} />{" "}

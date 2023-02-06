@@ -174,8 +174,8 @@ const PortfolioContent = () => {
   return (
     <>
       <Container>
-        <Title>Portfolio</Title>
-        <Intro>I took part in more than 20 projects.</Intro>
+        <Title>Portfolyo</Title>
+        <Intro>20&apos;yi aşkın proje tecrübesi.</Intro>
         <ProjectList>
           <ProjectListItem id="encazip">
             <LeftContent>
@@ -185,7 +185,7 @@ const PortfolioContent = () => {
                 href="https://encazip.com.tr"
               >
                 {" "}
-                <StyledImage alt="encazip.com" width={320}  height={78} src={'/img/encazip.png'} />
+                <StyledImage alt="encazip.com" width={320} height={78} src={'/img/encazip.png'} />
               </a>
             </LeftContent>
             <RightContent>
@@ -197,16 +197,16 @@ const PortfolioContent = () => {
                 >
                   encazip.com
                 </a>{" "}
-                <Year>2021 - current</Year>
+                <Year>2021 - mevcut</Year>
               </ProjectItem>
               <AboutCompany>
-                My current job is Encazip. encazip.com is an impartial, independent electricity tariff comparison and supplier switching website. I{"'"}m using to React with styled components.
+                encazip.com elektrik fiyatları karşılaştırma, kredi, sigorta ve telekomunikasyon alanlarında satış yapan bir şirket. Güncel teknolojileri kullanmakta beraber SEO tarafında da optimizeler yaparak en iyi değerlere ulaştık!
               </AboutCompany>
               <CompanyInfo>
-                <SubTitle>Company</SubTitle>
+                <SubTitle>Şirket</SubTitle>
                 <Company
-                  title="click for info"
-                  href="/Experiences#encazip"
+                  title="bilgi için tıklayın"
+                  href="/tr/deneyimler#encazip"
                 >
                   <a>
                     encazip.com
@@ -214,24 +214,25 @@ const PortfolioContent = () => {
                 </Company>
               </CompanyInfo>
               <UsingTech>
-                <SubTitle>Technologies</SubTitle>
+                <SubTitle>Kullandığım Teknolojiler</SubTitle>
                 <UsingTechItem>
                   <FontAwesomeIcon icon={faReact} /> React
                 </UsingTechItem>
                 <UsingTechItem>TypeScript</UsingTechItem>
                 <UsingTechItem>next.js</UsingTechItem>
                 <UsingTechItem>axios</UsingTechItem>
-                <UsingTechItem>Tailwind CSS</UsingTechItem>
+                <UsingTechItem>Tailwind Css</UsingTechItem>
                 <UsingTechItem>styled-components</UsingTechItem>
-                <UsingTechItem>Css Flexbox</UsingTechItem>
+                <UsingTechItem>Flexible / Responsive</UsingTechItem>
+                <UsingTechItem>grid</UsingTechItem>
                 <UsingTechItem>Scrum</UsingTechItem>
                 <UsingTechItem>git</UsingTechItem>
                 <UsingTechItem>npm package</UsingTechItem>
-                <UsingTechItem>Seo Optimization</UsingTechItem>
+                <UsingTechItem>Seo Optimizasyonu</UsingTechItem>
                 <UsingTechItem>Figma</UsingTechItem>
               </UsingTech>
               <ProjectsURL>
-                <SubTitle>Web Site</SubTitle>
+                <SubTitle>Web Sitesi</SubTitle>
                 <a target={"_blank"}
                   rel={"noreferrer noopener"} href="https://encazip.com">
                   <FontAwesomeIcon icon={faLink} /> encazip.com
@@ -257,23 +258,23 @@ const PortfolioContent = () => {
                   rel={"noreferrer noopener"}
                   href="https://akinon.com"
                 >
-                  e-commerce
+                  e-ticaret
                 </a>{" "}
                 <Year>2020 - 2021</Year>
               </ProjectItem>
               <AboutCompany>
-                I worked in the frontend - maintanance team at Akinon company.<br />
-                I was working in <strong>Lacoste, Superstep, Kiğılı, Barçın, GAP, GANT, Marks & Spencer, Derimod, Salomon, Desa and Sportive</strong> brands. <br />
-                We used .sass while developing HTML/CSS projects.<br />
-                Along with Bootsrap, there are also projects that we use Tailwind. We were using gulp for minify along with npm modules. <br />
-                We were using javaScript in JQuery and non-JQuery projects.<br />
-                Besides frontend developments, I was also doing Seo Optimizations (CLS, site acceleration, etc.). While working with the Kanban method, we have been working with the Scrum method since May 2021.
+                Akinon&apos;da büyük e-ticaret şirketleri üzerinde çalıştım.<br />
+                Çalıştığım projeler: <strong>Lacoste, Superstep, Kiğılı, Barçın, GAP, GANT, Marks & Spencer, Derimod, Salomon, Desa and Sportive</strong> markalarıdır. <br />
+                Proejelerde .sass kullandık.<br />
+                Bazı projeler Bootstrap veya Tailwind kullandık. Projelerde npm paketleri ve gulp kullandık. <br />
+                Genellikle JQuery kullanılan projelerde çalıştım.<br />
+                Frontend geliştirmelerinin yanı sıra Seo Optimizasyonu (CLS, site hızlandırma vb.) da yapıyordum. İşe ilk girdiğimde kanban metodu ile çalışırken, Mayıs 2021&apos;den beri Scrum metodu ile çalışıyorduk.
               </AboutCompany>
               <CompanyInfo>
-                <SubTitle>Company</SubTitle>
+                <SubTitle>Şirket</SubTitle>
                 <Company
-                  title="click for info"
-                  href="/Experiences#akinon"
+                  title="bilgi için tıklayın"
+                  href="/tr/deneyimler#akinon"
                 >
                   <a>
                     akinon.com
@@ -281,24 +282,24 @@ const PortfolioContent = () => {
                 </Company>
               </CompanyInfo>
               <UsingTech>
-                <SubTitle>Technologies</SubTitle>
+                <SubTitle>Kullandığım Teknolojiler</SubTitle>
                 <UsingTechItem>
-                  <FontAwesomeIcon icon={faJs} /> JavaScript / JQuery
+                  <FontAwesomeIcon icon={faJs} /> javaScript / JQuery
                 </UsingTechItem>
                 <UsingTechItem>
                   <FontAwesomeIcon icon={faBootstrap} /> Bootstrap
                 </UsingTechItem>
-                <UsingTechItem>Css Flexbox</UsingTechItem>
-                <UsingTechItem>Sass</UsingTechItem>
-                <UsingTechItem>Jira</UsingTechItem>
+                <UsingTechItem>Flexible / Responsive</UsingTechItem>
+                <UsingTechItem>sass</UsingTechItem>
+                <UsingTechItem>jira</UsingTechItem>
                 <UsingTechItem>Scrum / Kanban</UsingTechItem>
                 <UsingTechItem>git</UsingTechItem>
                 <UsingTechItem>npm package</UsingTechItem>
-                <UsingTechItem>Seo Optimization</UsingTechItem>
+                <UsingTechItem>Seo Optimizasyonu</UsingTechItem>
                 <UsingTechItem>Zeplin</UsingTechItem>
               </UsingTech>
               <ProjectsURL>
-                <SubTitle>Web Site</SubTitle>
+                <SubTitle>Web Sitesi</SubTitle>
                 <a target={"_blank"}
                   rel={"noreferrer noopener"} href="https://derimod.com.tr">
                   <FontAwesomeIcon icon={faLink} /> derimod.com.tr
@@ -362,16 +363,16 @@ const PortfolioContent = () => {
                 >
                   borusan.com.tr
                 </a>{" "}
-                <Year>2010 - 2014 - current</Year>
+                <Year>2010 - 2014 - halen</Year>
               </ProjectItem>
               <AboutCompany>
-                While I was working at dream-box.tv, interface changes were made for Borusan Holding{"'"}s website 3 times. I made improvements on the HTML/CSS and Javascript side. I provided support as maintanance on 10 different sites belonging to Borusan Holding. <strong>(Borusan Art, Borusan Music House, İyi Enerji, Borusan EnBW Energy, Artcenter, Borusan Lojistik, Borusan Contemporary)</strong>
+                dream-box.tv&apos;de çalışırken, Borusan Holding&apos;in 3 kez arayüzü güncellendi. HTML/CSS ve javaScript tarafında geliştirmeler yaptım. Borusan Holding&apos;in yanı sıra 10 farklı alt projesinde de geliştirmeler yaptım. <strong>(Borusan Art, Borusan Music House, İyi Enerji, Borusan EnBW Energy, Artcenter, Borusan Lojistik, Borusan Contemporary)</strong>
               </AboutCompany>
               <CompanyInfo>
-                <SubTitle>Company</SubTitle>
+                <SubTitle>Şirket</SubTitle>
                 <Company
-                  title="click for info"
-                  href="/Experiences#dreambox"
+                  title="bilgi için tıklayın"
+                  href="/tr/deneyimler#dreambox"
                 >
                   <a>
                     dream-box.tv
@@ -379,17 +380,17 @@ const PortfolioContent = () => {
                 </Company>
               </CompanyInfo>
               <UsingTech>
-                <SubTitle>Technologies</SubTitle>
+                <SubTitle>Kullandığım Teknolojiler</SubTitle>
                 <UsingTechItem>
-                  <FontAwesomeIcon icon={faJs} /> JavaScript / JQuery
+                  <FontAwesomeIcon icon={faJs} /> javaScript / JQuery
                 </UsingTechItem>
                 <UsingTechItem>Css</UsingTechItem>
-                <UsingTechItem>Seo Optimization</UsingTechItem>
-                <UsingTechItem>C# Integration</UsingTechItem>
+                <UsingTechItem>Seo Optimizasyonu</UsingTechItem>
+                <UsingTechItem>C# Entegrasyonu</UsingTechItem>
                 <UsingTechItem>Adobe Photoshop</UsingTechItem>
               </UsingTech>
               <ProjectsURL>
-                <SubTitle>Web Site</SubTitle>
+                <SubTitle>Web Sitesi</SubTitle>
                 <a target={"_blank"}
                   rel={"noreferrer noopener"} href="https://borusan.com.tr">
                   <FontAwesomeIcon icon={faLink} /> borusan.com.tr
@@ -420,13 +421,13 @@ const PortfolioContent = () => {
                 <Year>2010 - 2017 - current</Year>
               </ProjectItem>
               <AboutCompany>
-                The interface was updated twice for the Eczacıbaşı Holding website. I made improvements on the HTML/CSS and Javascript side.
+                Eczacıbaşı Holding web sitesi için arayüz iki kez güncellendi. HTML/CSS ve javaScript tarafında geliştirmeler yaptım.
               </AboutCompany>
               <CompanyInfo>
-                <SubTitle>Company</SubTitle>
+                <SubTitle>Şirket</SubTitle>
                 <Company
-                  title="click for info"
-                  href="/Experiences#dreambox"
+                  title="bilgi için tıklayın"
+                  href="/tr/deneyimler#dreambox"
                 >
                   <a>
                     dream-box.tv
@@ -434,17 +435,17 @@ const PortfolioContent = () => {
                 </Company>
               </CompanyInfo>
               <UsingTech>
-                <SubTitle>Technologies</SubTitle>
+                <SubTitle>Kullandığım Teknolojiler</SubTitle>
                 <UsingTechItem>
-                  <FontAwesomeIcon icon={faJs} /> JavaScript / JQuery
+                  <FontAwesomeIcon icon={faJs} /> javaScript / JQuery
                 </UsingTechItem>
                 <UsingTechItem>Css</UsingTechItem>
-                <UsingTechItem>Seo Optimization</UsingTechItem>
-                <UsingTechItem>C# Integration</UsingTechItem>
+                <UsingTechItem>Seo Optimizasyonu</UsingTechItem>
+                <UsingTechItem>C# Entegrasyonu</UsingTechItem>
                 <UsingTechItem>Adobe Photoshop</UsingTechItem>
               </UsingTech>
               <ProjectsURL>
-                <SubTitle>Web Site</SubTitle>
+                <SubTitle>Web Sitesi</SubTitle>
                 <a target={"_blank"}
                   rel={"noreferrer noopener"} href="https://eczacibasi.com.tr">
                   <FontAwesomeIcon icon={faLink} /> eczacibasi.com.tr
@@ -460,7 +461,7 @@ const PortfolioContent = () => {
                 href="https://erenholding.com.tr"
               >
                 {" "}
-                <StyledImage alt="eczacibasi.com.tr" width="320"  height={78} src={'/img/portfolio/erenholding.png'} />
+                <StyledImage alt="eczacibasi.com.tr" width="320" height={78} src={'/img/portfolio/erenholding.png'} />
               </a>
             </LeftContent>
             <RightContent>
@@ -475,13 +476,13 @@ const PortfolioContent = () => {
                 <Year>2010 - 2017 - current</Year>
               </ProjectItem>
               <AboutCompany>
-              I made HTML/CSS and javaScript developments for the websites of Eren Holding and its sub 8 companies.
+                Eren Holding ve 8 alt şirketinin web siteleri için HTML/CSS ve javaScript geliştirmeleri yaptım.
               </AboutCompany>
               <CompanyInfo>
-                <SubTitle>Company</SubTitle>
+                <SubTitle>Şirket</SubTitle>
                 <Company
-                  title="click for info"
-                  href="/Experiences#dreambox"
+                  title="bilgi için tıklayın"
+                  href="/tr/deneyimler#dreambox"
                 >
                   <a>
                     dream-box.tv
@@ -489,17 +490,17 @@ const PortfolioContent = () => {
                 </Company>
               </CompanyInfo>
               <UsingTech>
-                <SubTitle>Technologies</SubTitle>
+                <SubTitle>Kullandığım Teknolojiler</SubTitle>
                 <UsingTechItem>
-                  <FontAwesomeIcon icon={faJs} /> JavaScript / JQuery
+                  <FontAwesomeIcon icon={faJs} /> javaScript / JQuery
                 </UsingTechItem>
                 <UsingTechItem>Css</UsingTechItem>
-                <UsingTechItem>Seo Optimization</UsingTechItem>
-                <UsingTechItem>C# Integration</UsingTechItem>
+                <UsingTechItem>Seo Optimizasyonu</UsingTechItem>
+                <UsingTechItem>C# Entegrasyonu</UsingTechItem>
                 <UsingTechItem>Adobe Photoshop</UsingTechItem>
               </UsingTech>
               <ProjectsURL>
-                <SubTitle>Web Site</SubTitle>
+                <SubTitle>Web Sitesi</SubTitle>
                 <a target={"_blank"}
                   rel={"noreferrer noopener"} href="https://erenholding.com.tr">
                   <FontAwesomeIcon icon={faLink} /> erenholding.com.tr
@@ -515,7 +516,7 @@ const PortfolioContent = () => {
                 href="https://www.tbb.org.tr"
               >
                 {" "}
-                <StyledImage alt="tbb.org.tr" width={300}  height={300} src={'/img/portfolio/tbb.png'} />
+                <StyledImage alt="tbb.org.tr" width={300} height={300} src={'/img/portfolio/tbb.png'} />
               </a>
             </LeftContent>
             <RightContent>
@@ -527,26 +528,25 @@ const PortfolioContent = () => {
                 >
                   tbb.org.tr
                 </a>{" "}
-                <Year>2019 - current</Year>
+                <Year>2019 - halen</Year>
               </ProjectItem>
               <AboutCompany>
-              The facelift of the Banks Association of Turkey website was done by me. I built the existing designs from scratch using HTML, CSS3(Less), Bootstrap 4 and JQuery. I used gulp for Minify and npm for modules. After the interface coding was finished, I adapted the .net codes on the old site to the interface I wrote.
-              </AboutCompany>
+                Türkiye Bankalar Birliği web sitesinin yenilenmesi tarafımdan yapılmıştır. Mevcut tasarımları HTML, CSS3 (Less), Bootstrap 4 ve JQuery kullanarak sıfırdan oluşturdum. Minify için gulp ve modüller için npm kullandım. Arayüz kodlaması bittikten sonra eski sitedeki .net kodlarını kendi yazdığım arayüze uyarladım.              </AboutCompany>
               <CompanyInfo>
-                <SubTitle>Company</SubTitle>
+                <SubTitle>Şirket</SubTitle>
                 <Company
-                  title="click for info"
-                  href="/Experiences#nuevo"
+                  title="bilgi için tıklayın"
+                  href="/tr/deneyimler#nuevo"
                 >
                   <a>
-                  nuevo.com.tr
+                    nuevo.com.tr
                   </a>
                 </Company>
               </CompanyInfo>
               <UsingTech>
-                <SubTitle>Technologies</SubTitle>
+                <SubTitle>Kullandığım Teknolojiler</SubTitle>
                 <UsingTechItem>
-                  <FontAwesomeIcon icon={faJs} /> JavaScript / JQuery
+                  <FontAwesomeIcon icon={faJs} /> javaScript / JQuery
                 </UsingTechItem>
                 <UsingTechItem>
                   <FontAwesomeIcon icon={faBootstrap} /> Bootstrap
@@ -557,12 +557,12 @@ const PortfolioContent = () => {
                 <UsingTechItem>git</UsingTechItem>
                 <UsingTechItem>gulp</UsingTechItem>
                 <UsingTechItem>npm package</UsingTechItem>
-                <UsingTechItem>Seo Optimization</UsingTechItem>
-                <UsingTechItem>.net Integration</UsingTechItem>
+                <UsingTechItem>Seo Optimizasyonu</UsingTechItem>
+                <UsingTechItem>.net Entegrasyonu</UsingTechItem>
                 <UsingTechItem>Adobe XD</UsingTechItem>
               </UsingTech>
               <ProjectsURL>
-                <SubTitle>Web Site</SubTitle>
+                <SubTitle>Web Sitesi</SubTitle>
                 <a target={"_blank"}
                   rel={"noreferrer noopener"} href="https://www.tbb.org.tr">
                   <FontAwesomeIcon icon={faLink} /> tbb.org.tr
@@ -578,7 +578,7 @@ const PortfolioContent = () => {
                 href="https://yapikredi.com.tr"
               >
                 {" "}
-                <StyledImage alt="yapikredi.com" width={320}  height={78} src={'/img/portfolio/yapikredi.png'} />
+                <StyledImage alt="yapikredi.com" width={320} height={78} src={'/img/portfolio/yapikredi.png'} />
               </a>
             </LeftContent>
             <RightContent>
@@ -593,23 +593,23 @@ const PortfolioContent = () => {
                 <Year>2018</Year>
               </ProjectItem>
               <AboutCompany>
-              I worked on the maintanance side for the live site of Yapı Kredi bank. It is also affiliated with Yapı Kredi{"'"}; I also supported <strong>Adios Kart, Bonus Kart, World Kart and Crystal Kart</strong> websites as maintanance.
+                Yapı Kredi bankasının web sitesi üzerinde geliştirmeler yaptım. Aynı zamanda Yapı Kredi&apos;ye bağlı <strong>Adios Kart, Bonus Kart, World Kart ve Crystal Kart</strong> sitelerine de maintanance olarak destek verdim.
               </AboutCompany>
               <CompanyInfo>
-                <SubTitle>Company</SubTitle>
+                <SubTitle>Şirket</SubTitle>
                 <Company
-                  title="click for info"
-                  href="/Experiences#magiclick"
+                  title="bilgi için tıklayın"
+                  href="/tr/deneyimler#magiclick"
                 >
                   <a>
-                  magiclick.com
+                    magiclick.com
                   </a>
                 </Company>
               </CompanyInfo>
               <UsingTech>
-                <SubTitle>Technologies</SubTitle>
+                <SubTitle>Kullandığım Teknolojiler</SubTitle>
                 <UsingTechItem>
-                  <FontAwesomeIcon icon={faJs} /> JavaScript / JQuery
+                  <FontAwesomeIcon icon={faJs} /> javaScript / JQuery
                 </UsingTechItem>
                 <UsingTechItem>
                   <FontAwesomeIcon icon={faBootstrap} /> Bootstrap
@@ -617,11 +617,11 @@ const PortfolioContent = () => {
                 <UsingTechItem>Css Flexbox</UsingTechItem>
                 <UsingTechItem>less</UsingTechItem>
                 <UsingTechItem>TFS</UsingTechItem>
-                <UsingTechItem>Seo Optimization</UsingTechItem>
+                <UsingTechItem>Seo Optimizasyonu</UsingTechItem>
                 <UsingTechItem>Adobe Photoshop</UsingTechItem>
               </UsingTech>
               <ProjectsURL>
-                <SubTitle>Web Site</SubTitle>
+                <SubTitle>Web Sitesi</SubTitle>
                 <a target={"_blank"}
                   rel={"noreferrer noopener"} href="https://yapikredi.com.tr">
                   <FontAwesomeIcon icon={faLink} /> yapikredi.com.tr
@@ -641,7 +641,7 @@ const PortfolioContent = () => {
                 href="https://borusanenbw.com.tr"
               >
                 {" "}
-                <StyledImage alt="borusanenbw.com.tr" width={320}  height={78} src={'/img/portfolio/borusanEnbw.png'} />
+                <StyledImage alt="borusanenbw.com.tr" width={320} height={78} src={'/img/portfolio/borusanEnbw.png'} />
               </a>
             </LeftContent>
             <RightContent>
@@ -656,13 +656,13 @@ const PortfolioContent = () => {
                 <Year>2017 - current</Year>
               </ProjectItem>
               <AboutCompany>
-              As a freelancer, I coded Borusan EnBW Enerji{"'"}s current site with Bootstrap for my first company. I supported it as maintanance until it was published.
+                Freelancer olarak Borusan EnBW Enerji&apos;nin mevcut sitesini Bootstrap ile kodladım. Yayınlanana kadar arayüz geliştirmelerine destek oldum.
               </AboutCompany>
               <CompanyInfo>
-                <SubTitle>Company</SubTitle>
+                <SubTitle>Şirket</SubTitle>
                 <Company
-                  title="click for info"
-                  href="/Experiences#dreambox"
+                  title="bilgi için tıklayın"
+                  href="/tr/deneyimler#dreambox"
                 >
                   <a>
                     dream-box.tv
@@ -670,18 +670,18 @@ const PortfolioContent = () => {
                 </Company>
               </CompanyInfo>
               <UsingTech>
-                <SubTitle>Technologies</SubTitle>
+                <SubTitle>Kullandığım Teknolojiler</SubTitle>
                 <UsingTechItem>
-                  <FontAwesomeIcon icon={faJs} /> JavaScript / JQuery
+                  <FontAwesomeIcon icon={faJs} /> javaScript / JQuery
                 </UsingTechItem>
                 <UsingTechItem>Bootstrap</UsingTechItem>
                 <UsingTechItem>Css</UsingTechItem>
-                <UsingTechItem>Seo Optimization</UsingTechItem>
-                <UsingTechItem>C# Integration</UsingTechItem>
+                <UsingTechItem>Seo Optimizasyonu</UsingTechItem>
+                <UsingTechItem>C# Entegrasyonu</UsingTechItem>
                 <UsingTechItem>Adobe Photoshop</UsingTechItem>
               </UsingTech>
               <ProjectsURL>
-                <SubTitle>Web Site</SubTitle>
+                <SubTitle>Web Sitesi</SubTitle>
                 <a target={"_blank"}
                   rel={"noreferrer noopener"} href="https://www.borusanenbw.com.tr/">
                   <FontAwesomeIcon icon={faLink} /> borusanenbw.com.tr
@@ -697,7 +697,7 @@ const PortfolioContent = () => {
                 href="https://gastroclub.com.tr/"
               >
                 {" "}
-                <StyledImage alt="gastro.com.tr" width={228}  height={156} src={'/img/portfolio/gastro.png'} />
+                <StyledImage alt="gastro.com.tr" width={228} height={156} src={'/img/portfolio/gastro.png'} />
               </a>
             </LeftContent>
             <RightContent>
@@ -707,28 +707,28 @@ const PortfolioContent = () => {
                   rel={"noreferrer noopener"}
                   href="https://gastroclub.com.tr/"
                 >
-                gastroclub.com.tr
+                  gastroclub.com.tr
                 </a>{" "}
                 <Year>2019 - current</Year>
               </ProjectItem>
               <AboutCompany>
-              I made improvements on Bootstrap, CSS(Less) and javaScript for the Gastroclub website.
+              Gastroclub web sitesi için Bootstrap, CSS(Less) ve javaScript ile geliştirmeler yaptım.
               </AboutCompany>
               <CompanyInfo>
-                <SubTitle>Company</SubTitle>
+                <SubTitle>Şirket</SubTitle>
                 <Company
-                  title="click for info"
-                  href="/Experiences#nuevo"
+                  title="bilgi için tıklayın"
+                  href="/tr/deneyimler#nuevo"
                 >
                   <a>
-                  nuevo.com.tr
+                    nuevo.com.tr
                   </a>
                 </Company>
               </CompanyInfo>
               <UsingTech>
-                <SubTitle>Technologies</SubTitle>
+                <SubTitle>Kullandığım Teknolojiler</SubTitle>
                 <UsingTechItem>
-                  <FontAwesomeIcon icon={faJs} /> JavaScript / JQuery
+                  <FontAwesomeIcon icon={faJs} /> javaScript / JQuery
                 </UsingTechItem>
                 <UsingTechItem>
                   <FontAwesomeIcon icon={faBootstrap} /> Bootstrap
@@ -739,12 +739,12 @@ const PortfolioContent = () => {
                 <UsingTechItem>git</UsingTechItem>
                 <UsingTechItem>gulp</UsingTechItem>
                 <UsingTechItem>npm package</UsingTechItem>
-                <UsingTechItem>Seo Optimization</UsingTechItem>
-                <UsingTechItem>.net Integration</UsingTechItem>
+                <UsingTechItem>Seo Optimizasyonu</UsingTechItem>
+                <UsingTechItem>.net Entegrasyonu</UsingTechItem>
                 <UsingTechItem>Adobe XD</UsingTechItem>
               </UsingTech>
               <ProjectsURL>
-                <SubTitle>Web Site</SubTitle>
+                <SubTitle>Web Sitesi</SubTitle>
                 <a target={"_blank"}
                   rel={"noreferrer noopener"} href="https://www.gastroclub.com.tr">
                   <FontAwesomeIcon icon={faLink} /> gastroclub.com.tr
@@ -760,7 +760,7 @@ const PortfolioContent = () => {
                 href="https://riskmerkezi.org"
               >
                 {" "}
-                <StyledImage alt="tbb.org.tr" width={300}  height={300} src={'/img/portfolio/tbb.png'} />
+                <StyledImage alt="tbb.org.tr" width={300} height={300} src={'/img/portfolio/tbb.png'} />
               </a>
             </LeftContent>
             <RightContent>
@@ -770,28 +770,27 @@ const PortfolioContent = () => {
                   rel={"noreferrer noopener"}
                   href="https://riskmerkezi.org"
                 >
-                 riskmerkezi.org
+                  riskmerkezi.org
                 </a>{" "}
                 <Year>2019 - current</Year>
               </ProjectItem>
               <AboutCompany>
-              The facelift of the Banks Association of Turkey website was done by me. I built the existing designs from scratch using HTML, CSS3(Less), Bootstrap 4 and JQuery. I used gulp for Minify and npm for modules. After the interface coding was finished, I adapted the .net codes on the old site to the interface I wrote.
-              </AboutCompany>
+              Türkiye Bankalar Birliği web sitesinin yenilenmesi tarafımdan yapılmıştır. Mevcut tasarımları HTML, CSS3 (Less), Bootstrap 4 ve JQuery kullanarak sıfırdan oluşturdum. Minify için gulp ve modüller için npm kullandım. Arayüz kodlaması bittikten sonra eski sitedeki .net kodlarını kendi yazdığım arayüze uyarladım.              </AboutCompany>
               <CompanyInfo>
-                <SubTitle>Company</SubTitle>
+                <SubTitle>Şirket</SubTitle>
                 <Company
-                  title="click for info"
-                  href="/Experiences#nuevo"
+                  title="bilgi için tıklayın"
+                  href="/tr/deneyimler#nuevo"
                 >
                   <a>
-                  nuevo.com.tr
+                    nuevo.com.tr
                   </a>
                 </Company>
               </CompanyInfo>
               <UsingTech>
-                <SubTitle>Technologies</SubTitle>
+                <SubTitle>Kullandığım Teknolojiler</SubTitle>
                 <UsingTechItem>
-                  <FontAwesomeIcon icon={faJs} /> JavaScript / JQuery
+                  <FontAwesomeIcon icon={faJs} /> javaScript / JQuery
                 </UsingTechItem>
                 <UsingTechItem>
                   <FontAwesomeIcon icon={faBootstrap} /> Bootstrap
@@ -802,12 +801,12 @@ const PortfolioContent = () => {
                 <UsingTechItem>git</UsingTechItem>
                 <UsingTechItem>gulp</UsingTechItem>
                 <UsingTechItem>npm package</UsingTechItem>
-                <UsingTechItem>Seo Optimization</UsingTechItem>
-                <UsingTechItem>.net Integration</UsingTechItem>
+                <UsingTechItem>Seo Optimizasyonu</UsingTechItem>
+                <UsingTechItem>.net Entegrasyonu</UsingTechItem>
                 <UsingTechItem>Adobe XD</UsingTechItem>
               </UsingTech>
               <ProjectsURL>
-                <SubTitle>Web Site</SubTitle>
+                <SubTitle>Web Sitesi</SubTitle>
                 <a target={"_blank"}
                   rel={"noreferrer noopener"} href="https://riskmerkezi.org">
                   <FontAwesomeIcon icon={faLink} /> riskmerkezi.org
@@ -823,7 +822,7 @@ const PortfolioContent = () => {
                 href="http://www.trlibor.org/"
               >
                 {" "}
-                <StyledImage alt="tbb.org.tr" width={300}  height={300} src={'/img/portfolio/tbb.png'} />
+                <StyledImage alt="tbb.org.tr" width={300} height={300} src={'/img/portfolio/tbb.png'} />
               </a>
             </LeftContent>
             <RightContent>
@@ -833,28 +832,27 @@ const PortfolioContent = () => {
                   rel={"noreferrer noopener"}
                   href="http://www.trlibor.org/"
                 >
-                trlibor.org
+                  trlibor.org
                 </a>{" "}
                 <Year>2019 - current</Year>
               </ProjectItem>
               <AboutCompany>
-              The facelift of the Banks Association of Turkey website was done by me. I built the existing designs from scratch using HTML, CSS3(Less), Bootstrap 4 and JQuery. I used gulp for Minify and npm for modules. After the interface coding was finished, I adapted the .net codes on the old site to the interface I wrote.
-              </AboutCompany>
+              Türkiye Bankalar Birliği web sitesinin yenilenmesi tarafımdan yapılmıştır. Mevcut tasarımları HTML, CSS3 (Less), Bootstrap 4 ve JQuery kullanarak sıfırdan oluşturdum. Minify için gulp ve modüller için npm kullandım. Arayüz kodlaması bittikten sonra eski sitedeki .net kodlarını kendi yazdığım arayüze uyarladım.              </AboutCompany>
               <CompanyInfo>
-                <SubTitle>Company</SubTitle>
+                <SubTitle>Şirket</SubTitle>
                 <Company
-                  title="click for info"
-                  href="/Experiences#nuevo"
+                  title="bilgi için tıklayın"
+                  href="/tr/deneyimler#nuevo"
                 >
                   <a>
-                  nuevo.com.tr
+                    nuevo.com.tr
                   </a>
                 </Company>
               </CompanyInfo>
               <UsingTech>
-                <SubTitle>Technologies</SubTitle>
+                <SubTitle>Kullandığım Teknolojiler</SubTitle>
                 <UsingTechItem>
-                  <FontAwesomeIcon icon={faJs} /> JavaScript / JQuery
+                  <FontAwesomeIcon icon={faJs} /> javaScript / JQuery
                 </UsingTechItem>
                 <UsingTechItem>
                   <FontAwesomeIcon icon={faBootstrap} /> Bootstrap
@@ -865,12 +863,12 @@ const PortfolioContent = () => {
                 <UsingTechItem>git</UsingTechItem>
                 <UsingTechItem>gulp</UsingTechItem>
                 <UsingTechItem>npm package</UsingTechItem>
-                <UsingTechItem>Seo Optimization</UsingTechItem>
-                <UsingTechItem>.net Integration</UsingTechItem>
+                <UsingTechItem>Seo Optimizasyonu</UsingTechItem>
+                <UsingTechItem>.net Entegrasyonu</UsingTechItem>
                 <UsingTechItem>Adobe XD</UsingTechItem>
               </UsingTech>
               <ProjectsURL>
-                <SubTitle>Web Site</SubTitle>
+                <SubTitle>Web Sitesi</SubTitle>
                 <a target={"_blank"}
                   rel={"noreferrer noopener"} href="http://www.trlibor.org/">
                   <FontAwesomeIcon icon={faLink} /> trlibor.org

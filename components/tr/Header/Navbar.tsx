@@ -130,34 +130,34 @@ const Navbar = () => {
           onClick={() => Close()}
           className={click ? "nav-menu active" : "nav-menu"}
         >
-          <Item className={router.asPath == "/" ? "active" : ""}>
-            <Link href="/">
-              <LinkClass>HOME</LinkClass>
+          <Item className={router.asPath == "/tr/" ? "active" : ""}>
+            <Link href="/tr/">
+              <LinkClass>ANA SAYFA</LinkClass>
             </Link>
           </Item>
-          <Item className={router.asPath == "/about/" ? "active" : ""}>
-            <Link href="/about/">
-              <LinkClass>ABOUT</LinkClass>
+          <Item className={router.asPath == "/tr/hakkimda/" ? "active" : ""}>
+            <Link href="/tr/hakkimda/">
+              <LinkClass>HAKKIMDA</LinkClass>
             </Link>
           </Item>
-          <Item className={router.asPath == "/experiences/" ? "active" : ""}>
-            <Link href="/experiences/">
-              <LinkClass>EXPERIENCES</LinkClass>
+          <Item className={router.asPath == "/tr/deneyimler/" ? "active" : ""}>
+            <Link href="/tr/deneyimler">
+              <LinkClass>DENEYİMLER</LinkClass>
             </Link>
           </Item>
-          <Item className={router.asPath == "/portfolio/" ? "active" : ""}>
-            <Link href="/portfolio/">
-              <LinkClass>PORTFOLIO</LinkClass>
+          <Item className={router.asPath == "/tr/portfolyo/" ? "active" : ""}>
+            <Link href="/tr/portfolyo">
+              <LinkClass>PORTFOLYO</LinkClass>
             </Link>
           </Item>
-          <Item className={router.asPath == "/contact/" ? "active" : ""}>
-            <Link href="/contact/">
-              <LinkClass>CONTACT</LinkClass>
+          <Item className={router.asPath == "/tr/iletisim/" ? "active" : ""}>
+            <Link href="/tr/iletisim">
+              <LinkClass>İLETİŞİM</LinkClass>
             </Link>
           </Item>
           <Item>
-            <Link href="/tr">
-              <LinkClass>TR</LinkClass>
+            <Link href="/">
+              <LinkClass>EN</LinkClass>
             </Link>
           </Item>
         </Nav>
