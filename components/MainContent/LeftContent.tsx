@@ -276,7 +276,7 @@ const LeftContent = () => {
       <Title color="#858585">FRONTEND DEVELOPER</Title>
       <CVLink>
         <CVLinkItem target={"_blank"}
-          rel={"noreferrer noopener"} href="/CV/HaktanTekinCVEN.pdf">
+          rel={"noreferrer noopener"} href="/CV/haktantekinCV_EN.pdf">
           <FontAwesomeIcon icon={faFile} />
           ENGLISH CV
           <svg height="50" width="180">
@@ -284,7 +284,7 @@ const LeftContent = () => {
           </svg>
         </CVLinkItem>
         <CVLinkItem className="turkish" target={"_blank"}
-          rel={"noreferrer noopener"} href="/CV/HaktanTekinCV.pdf">
+          rel={"noreferrer noopener"} href="/CV/haktantekinCV.pdf">
           <FontAwesomeIcon icon={faFile} />
           TÜRKÇE ÖZGEÇMİŞ
           <svg height="50" width="180">
